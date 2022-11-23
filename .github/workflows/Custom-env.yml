@@ -12,7 +12,8 @@ jobs:
       LIKE: Please like share
     steps:
        - name: "HOla sapo lenguado"
-         run: echo "$LIKE and $SUBSCRIBE our $CHANNEL_NAME"
+         run: |
+          echo "$LIKE and $SUBSCRIBE our $CHANNEL_NAME"
 
          env:
           CHANNEL_NAME: devOoops
