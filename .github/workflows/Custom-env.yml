@@ -1,0 +1,15 @@
+name : Custom environment Variable
+
+on : push
+
+env:
+  SUBSCRIBE: Subscribe
+
+jobs:
+  Subscribe-my-channels:
+    runs-on: ubuntu-latest
+    env: 
+      LIKE: Please like share
+    steps:
+       - name: "HOla sapo lenguado"
+         run: echo "$LIKE and $SUBSCRIBE"
