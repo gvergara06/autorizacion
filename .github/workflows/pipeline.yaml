@@ -12,7 +12,7 @@ env:
   nameTableDynamodbTags : ''
   region: us-east-1
   secretName: 'test/abcdin/tokenizacion_apikey'
-  keysecret: 'superSecreto'
+  keySecret: 'superSecreto'
 
 
 jobs:
