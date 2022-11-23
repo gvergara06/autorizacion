@@ -26,7 +26,7 @@ exports.handler = async function(event, context, callback) {
             callback(null, generatePolicy('user', 'Deny', event.methodArn));
             break;
         case 'unauthorized':
-            callback("Unauthorized");   // Return a 401 Unauthorized response
+            callback("Unauthorized- SApo lenguado");   // Return a 401 Unauthorized response
             break;
         default:
             callback("Error: Invalid token"); // Return a 500 Invalid token response
